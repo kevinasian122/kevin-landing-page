@@ -10,10 +10,12 @@ body{
     background-color: #1F2937;
     display:flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    gap:600px;
     padding-top:28px;
     padding-right: 150px;
     padding-left: 150px;
+    
 }
 
 .logo{
@@ -30,9 +32,10 @@ body{
 .blockone {
     display:flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    gap:75px;
     background-color: #1F2937;
-    padding: 50px 150px;
+    padding: 35px 150px;
 }
 
 
@@ -47,7 +50,7 @@ body{
     margin-bottom: 10px;
 }
 img{
-    width:250px;
+    width:230px;
     height: auto;
 }
 .signup{
@@ -76,10 +79,31 @@ a{
     display:flex;
     flex-grow:1;
     flex-direction: column;
+    
 }
-
-.blockfour{
+.blockthree{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #E5E7EB;
+    padding: 60px;
+}
+.quote{
+    font-style: italic;
+    font-size: 36px;
+    color:#1F2937;
+    font-weight: 10;
+    padding-bottom: 12px;
+}
+.author{
+    text-align: right;
+    font-weight: bold;
+}
+.blockfour{
+    background-color: white;
+    display:flex;
+    align-items: center;
+    justify-content: center;
 }
 .pictures, .description{
     display:flex;
@@ -89,6 +113,7 @@ a{
 .text{
     width:125px;
     text-align: center;
+    margin-bottom: 32px;
 }
 
 img.imggroup{
@@ -104,10 +129,27 @@ img.imggroup{
     color: #1F2937;
     padding: 32px;
 }
+.calltoaction{
+    background-color: #3882F6;
+    display:flex;
+    justify-content: space-between;
+    gap: 45px;
+    padding: 32px;
+    margin: 40px 0;
+    border-radius: 10px;
+}
+.button2.signup{
+    border: 2px solid white;
+    border-radius: 10px;
+}
 
 
 
 
 .footer{
     background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:20px;
 }
