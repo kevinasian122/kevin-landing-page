@@ -3,6 +3,7 @@ body{
     flex-direction: column;
     min-height: 100vh;
     margin:0;
+    
 }
 
 .header{
@@ -46,7 +47,7 @@ body{
     margin-bottom: 10px;
 }
 img{
-    width:300px;
+    width:250px;
     height: auto;
 }
 .signup{
@@ -80,7 +81,29 @@ a{
 .blockfour{
     background-color: #E5E7EB;
 }
+.pictures, .description{
+    display:flex;
+    justify-content: center;
+    gap: 55px;
+}
+.text{
+    width:125px;
+    text-align: center;
+}
 
+img.imggroup{
+    width:125px;
+    height:175px;
+    border-radius:25px;
+   
+}
+.twoheader{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    color: #1F2937;
+    padding: 32px;
+}
 
 
 
